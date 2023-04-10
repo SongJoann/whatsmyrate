@@ -22,8 +22,8 @@ body {
 header {
 	width: 100%;
 	height: 5%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
+	background-color: #283032;
+	border-bottom: 1px solid #283032;
 }
 .logo {
 	color: #fff;
@@ -60,7 +60,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #3f7786;
 }
 .hero_header {
 	color: #FFFFFF;
@@ -74,6 +74,7 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;
+    background-image: url(/assets/hero_banner.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
@@ -147,7 +148,7 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #2D9AB7;
+	background-color: #2c3133;
 	background-image: url(../images/parallax.png);
 	height: 400px;
 	background-attachment: fixed;
