@@ -131,8 +131,8 @@ ul li:hover a {
 	margin-bottom: 0px;
 }
 .thumbnail {
-	width: 25%;
-	text-align: center;
+	width: 29%;
+	text-align: justify;
 	float: left;
 	margin-top: 35px;
 }
@@ -141,7 +141,7 @@ ul li:hover a {
 	margin-right: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
-	color: #52BAD5;
+	color: #506267;
 }
 .gallery .thumbnail p {
 	margin-top: 0px;
@@ -153,7 +153,6 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2c3133;
-	background-image: url(../images/parallax.png);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
