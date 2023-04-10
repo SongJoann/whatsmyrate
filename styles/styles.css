@@ -123,7 +123,7 @@ ul li:hover a {
 .gallery {
 	clear: both;
 	display: inline-block;
-	/*width: 90%;*/
+	width: 100%;
 	background-color: #FFFFFF;
 	/* [disabled]min-width: 400px;
 */
@@ -143,6 +143,7 @@ ul li:hover a {
 	margin-top: 35px;
 }
 .gallery .thumbnail h4 {
+	width: 29%;
     padding-left: 25px;
     padding-right: 25px;
 	margin-top: 5px;
@@ -151,7 +152,7 @@ ul li:hover a {
 	margin-left: 5px;
 	color: #506267;
 }
-.gallery .thumbnail p {
+/*.gallery .thumbnail p {
     padding-left: 25px;
     padding-right: 25px;
 	margin-top: 0px;
@@ -159,7 +160,7 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-left: 0px;
 	color: #A3A3A3;
-}
+}*/
 /* Parallax Section */
 .banner {
 	background-color: #2c3133;
