@@ -123,7 +123,7 @@ ul li:hover a {
 .gallery {
 	clear: both;
 	display: inline-block;
-	width: 90%;
+	/*width: 90%;*/
 	background-color: #FFFFFF;
 	/* [disabled]min-width: 400px;
 */
