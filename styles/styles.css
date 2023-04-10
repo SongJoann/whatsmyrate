@@ -74,10 +74,11 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;
-    background-image: url(../assets/hero_banner.png);
+    background-image: url(../assets/SimpleBanner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 450px;
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
