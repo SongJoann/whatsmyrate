@@ -16,6 +16,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFFFFF;
+    height: 200px;
 }
 /* Navigation */
 header {
@@ -103,16 +104,13 @@ ul li:hover a {
 	margin-bottom: 5px;
 }
 .column{
+    width: 50%;
     color: #717070;
 	flex-direction: column;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 20px;
     margin-bottom: 10px;
   	float: left;
-  	width: 50%;
   	border-width:2px;
-	text-align: center;
+	text-align: justify;
 }
 
 .total

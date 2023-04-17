@@ -154,6 +154,7 @@ ul li:hover a {
     text-align:center;
 }
 */
+/*
 .flex-container .calculator {
 	width: 100%;
 	display: flex;
@@ -162,13 +163,10 @@ ul li:hover a {
 }
 .column{
 	flex-direction: column;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 20px;
   	float: left;
   	width: 50%;
   	border-width:2px;
-	text-align: center;
+	text-align: justify;
 }
 
 .total
@@ -181,6 +179,7 @@ ul li:hover a {
   font-size:2rem;
   border-width:2px;
 }
+*/
 /* Parallax Section */
 .banner {
 	background-color: #2c3133;
