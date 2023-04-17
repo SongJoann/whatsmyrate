@@ -16,7 +16,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFFFFF;
-    height: 200px;
+    height: 1000px;
 }
 /* Navigation */
 header {
@@ -108,6 +108,8 @@ ul li:hover a {
     color: #717070;
 	flex-direction: column;
     margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   	float: left;
   	border-width:2px;
 	text-align: justify;
