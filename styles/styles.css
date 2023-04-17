@@ -165,10 +165,9 @@ ul li:hover a {
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 20px;
-	width: 29%;
 	display: inline-block;
 	background-color: #FFFFFF;
-	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
 /* Parallax Section */
