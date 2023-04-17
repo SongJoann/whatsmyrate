@@ -14,7 +14,6 @@
 
 <body>
 <!-- Main Container -->
-<div class="container"> 
   <!-- Navigation -->
   <header> <a href="">
     <h4 class="logo">HOME</h4>
@@ -30,52 +29,32 @@
 
     <div class="flex-container calculator">
         
-        <div class="row">
-            <div class="col row-heading"></div>
-            <div class="col row-heading"></div>      
+        <div class="column">
+            <div>1. Current Balance</div>
+            <div>2. Interest Rate (APR)</div>
+            <div>3. Monthly Payment</div>
+            <div class="w-100"></div>
         </div>
     
-        <div class="row">
-            <div class="col">
-            1. Current Balance
-            </div>
-            <div class="col">
+        <div class="column">
+            <div>
                 <input type="number" value="0" class="qty" id="qty_sugar"/>
             </div>
-            <div class="w-100"></div>
-        </div>
-    
-        <div class="row">
-            <div class="col">
-            2. Interest Rate (APR)
-            </div>
-            <div class="col">
+            <div>
                 <input type="number" value="0" class="qty" id="qty_butter"/>
             </div>
-            <div class="w-100"></div>
-        </div>
-    
-        <div class="row">
-            <div class="col">
-            3. Monthly Payment
-            </div>
-            <div class="col">
+            <div>
                 <input type="number" class="qty" value="0" id="qty_eggs"/>
             </div>
-            <div class="w-100"></div>
-        </div>
-    
-        <div class="row">
             <div class="col text-right total">
             Total Interest
             </div>
             <div class="col total-val">
-                <span id="total_value">0</span>
+            <span id="total_value">0</span>
             </div>
             <div class="w-100"></div>
         </div>
-
     </div>
-   </div>
-  </body> 
+
+</body> 
 </html>

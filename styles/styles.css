@@ -155,25 +155,20 @@ ul li:hover a {
 }
 */
 .flex-container .calculator {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 20px;
+	width: 100%;
 	display: flex;
 	background-color: #FFFFFF;
 	margin-bottom: 5px;
 }
-.row
-{
-  width: 100%;
-  font-size:1.3rem;
-  font-weight:bold;
-  border-width:2px;
+.column{
+	flex-direction: column;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+  	float: left;
+  	width: 50%;
+  	border-width:2px;
 }
-.col{
-  float: left;
-  width: 50%
-}
-
 .total
 {
   font-size:2rem;
