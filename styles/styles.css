@@ -154,7 +154,7 @@ ul li:hover a {
     text-align:center;
 }
 */
-.container .calculator {
+.flex-container .calculator {
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 20px;
