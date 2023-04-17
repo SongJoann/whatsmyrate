@@ -98,13 +98,12 @@ ul li:hover a {
 /* calculations html*/
 
 .flex-container .calculator {
-	width: 100%;
+	width: 90%;
 	display: flex;
 	background-color: #FFFFFF;
 	margin-bottom: 5px;
 }
 .column{
-    width: 50%;
     color: #717070;
 	flex-direction: column;
     margin-bottom: 10px;
