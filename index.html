@@ -10,6 +10,7 @@
 <script>var __adobewebfontsappname__="dreamweaver"</script>
 <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="./pages/calculation.js"></script>
 
 </head>
 <body>
@@ -50,6 +51,51 @@
     <p class="text_column">Mortgage rates are the interest rates charged by lenders on loans for home purchases or refinancing. These rates are influenced by various factors such as the current market conditions, the borrower's credit score and financial situation, and the type and term of the mortgage. The final mortgage rate can also include additional fees or points paid by the borrower to lower the interest rate.</p>
     <p class="text_column">A CD (Certificate of Deposit) and a savings account are both types of deposit accounts offered by banks and credit unions. The key difference between them is CDs typically offer a higher interest rate but require the depositor to commit to leaving the funds in the account for a specific term. Savings accounts, on the other hand, are more flexible but generally offer lower interest rates than CDs.</p>
   </section>
+
+  <div class="calculator">
+      <div class="row">
+        <div class="col-6 row-heading">
+          Credit Card Interest Calculator
+        </div>      
+      </div>
+      
+      <div class="row">
+        <div class="col-6">
+          1. Current Balance
+        </div>
+        <div class="col-3">
+          <input type="number" value="0" class="qty" id="qty_sugar"/>
+        </div>
+      </div>
+      
+       <div class="row my-3">
+        <div class="col-6">
+          2. Interest Rate (APR)
+        </div>
+        <div class="col-3">
+          <input type="number" value="0" class="qty" id="qty_butter"/>
+        </div>
+      </div>
+      
+      <div class="row my-3">
+        <div class="col-6">
+          3. Monthly Payment
+        </div>
+        <div class="col-3">
+          <input type="number" class="qty" value="0" id="qty_eggs"/>
+        </div>
+      </div>
+      
+      <div class="row my-4">
+        <div class="col-9 text-right total">
+         Total Interest
+        </div>
+        
+        <div class="col-2 total-val">
+          <span id="total_interest">0</span
+        </div>
+      </div>
+    </div>
  
   <!-- Parallax Section -->
   <section class="banner">

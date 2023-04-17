@@ -121,6 +121,32 @@ ul li:hover a {
 	margin-bottom: 5px;
 }
 
+.row-heading
+{
+  font-size:1.3rem;
+  font-weight:bold;
+}
+.total
+{
+  font-size:2rem;
+  font-weight:bold;
+}
+.total-val
+{
+  font-size:2rem;
+  border-width:2px;
+}
+
+.calculator {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	width: 29%;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+
 .subheading {
 	width: 29%;
 	text-align: center;
@@ -264,6 +290,8 @@ footer {
 	display: none;
 }
 header nav ul {
+	list-style: none;
+	float: right;
 }
 
 nav ul li {
