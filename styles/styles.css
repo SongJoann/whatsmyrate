@@ -121,6 +121,16 @@ ul li:hover a {
 	margin-bottom: 5px;
 }
 
+.subheading {
+	width: 29%;
+	text-align: center;
+	float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+	margin-top: 35px;
+}
+
+/* calculations html*/
 .row-heading
 {
   font-size:1.3rem;
@@ -157,15 +167,6 @@ ul li:hover a {
 	display: inline-block;
 	background-color: #FFFFFF;
 	margin-top: 0px;
-}
-
-.subheading {
-	width: 29%;
-	text-align: center;
-	float: left;
-    padding-left: 25px;
-    padding-right: 25px;
-	margin-top: 35px;
 }
 
 /* Parallax Section */
