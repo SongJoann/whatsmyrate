@@ -158,16 +158,20 @@ ul li:hover a {
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 20px;
-	display: inline-block;
+	display: flex;
 	background-color: #FFFFFF;
 	margin-bottom: 5px;
-	width: 100%;
 }
 .row
 {
+  width: 100%;
   font-size:1.3rem;
   font-weight:bold;
   border-width:2px;
+}
+.col{
+  float: left;
+  width: 50%
 }
 
 .total
