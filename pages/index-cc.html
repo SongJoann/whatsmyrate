@@ -7,7 +7,6 @@
 <title>Light Theme</title>
 <link href="../styles/styles.css" rel="stylesheet" type="text/css">
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="../pages/calculation.js"></script>
 </head>
@@ -16,44 +15,45 @@
 <!-- Main Container -->
 <div class="container">
   <!-- Navigation -->
-  <header> <a href="">
-    <h4 class="logo">HOME</h4>
-    </a>
-    <nav>
-      <ul>
-        <li><a href="#hero">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li> <a href="#contact">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header> <a href="">
+        <h4 class="logo">HOME</h4>
+        </a>
+        <nav>
+        <ul>
+            <li><a href="#hero">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li> <a href="#contact">CONTACT</a></li>
+        </ul>
+        </nav>
+    </header>
+</div>
 
-    <div class="flex-container calculator">
+<div class="flex-container calculator">
         
-        <div class="column">
-            <div>1. Current Balance</div>
-            <div>2. Interest Rate (APR)</div>
-            <div>3. Monthly Payment</div>
-        </div>
+    <div class="column">
+        <div>1. Current Balance</div>
+        <div>2. Interest Rate (APR)</div>
+        <div>3. Monthly Payment</div>
+    </div>
     
-        <div class="column">
-            <div>
-                <input type="number" value="0" class="qty" id="qty_sugar"/>
-            </div>
-            <div>
-                <input type="number" value="0" class="qty" id="qty_butter"/>
-            </div>
-            <div>
-                <input type="number" class="qty" value="0" id="qty_eggs"/>
-            </div>
-            <div class="col text-right total">
+    <div class="column">
+        <div>
+            <input type="number" value="0" class="qty" id="qty_sugar"/>
+        </div>
+        <div>
+            <input type="number" value="0" class="qty" id="qty_butter"/>
+        </div>
+        <div>
+            <input type="number" class="qty" value="0" id="qty_eggs"/>
+        </div>
+        <div class="col text-right total">
             Total Interest
-            </div>
-            <div class="col total-val">
+        </div>
+        <div class="col total-val">
             <span id="total_value">0</span>
-            </div>
         </div>
     </div>
- </div>
-</body> 
+</div>
+
+</body>
 </html>

@@ -168,7 +168,9 @@ ul li:hover a {
   	float: left;
   	width: 50%;
   	border-width:2px;
+	text-align: center;
 }
+
 .total
 {
   font-size:2rem;
