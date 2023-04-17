@@ -126,6 +126,18 @@ ul li:hover a {
   font-size:1.3rem;
   font-weight:bold;
 }
+.col-6{
+    padding-left: 25px;
+	color: #717070;
+	margin-bottom: 5px;
+	float: left;
+}
+.col-3{
+    padding-left: 5px;
+	color: #717070;
+	margin-bottom: 5px;
+	float: right;
+}
 .total
 {
   font-size:2rem;
