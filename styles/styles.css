@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color: #f2f2f2;
+	background-color: #FFFFFF;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -12,7 +12,7 @@ body {
 }
 /* Container */
 .container {
-	width: 100%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 1000px;
@@ -129,6 +129,7 @@ ul li:hover a {
     padding-left: 25px;
     padding-right: 25px;
 	margin-top: 35px;
+	margin-bottom: 5px;
 }
 
 /* calculations html*/
