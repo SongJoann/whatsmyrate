@@ -133,6 +133,7 @@ ul li:hover a {
 }
 
 /* calculations html*/
+/*
 .calculator {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -142,11 +143,6 @@ ul li:hover a {
 	margin-bottom: 5px;
 	width: 100%;
 }
-.row-heading
-{
-  font-size:1.3rem;
-  font-weight:bold;
-}
 .col-6{
     padding-left: 25px;
 	color: #717070;
@@ -154,7 +150,13 @@ ul li:hover a {
 	float: left;
 	width: 50%
 }
-.col-3{
+*/
+.row-heading
+{
+  font-size:1.3rem;
+  font-weight:bold;
+}
+.col{
     padding-left: 5px;
 	color: #717070;
 	margin-bottom: 10px;
@@ -170,7 +172,6 @@ ul li:hover a {
 {
   font-size:2rem;
   border-width:2px;
-  float: left;
 }
 /* Parallax Section */
 .banner {
