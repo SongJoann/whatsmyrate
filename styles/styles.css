@@ -157,12 +157,17 @@ ul li:hover a {
   font-weight:bold;
 }
 .col{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	display: inline-block;
     padding-left: 5px;
 	color: #717070;
 	margin-bottom: 10px;
-	float: left;
-	width:50%
+	width: 50%;
+    text-align:center;
 }
+
 .total
 {
   font-size:2rem;
