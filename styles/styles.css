@@ -129,13 +129,13 @@ ul li:hover a {
 .col-6{
     padding-left: 25px;
 	color: #717070;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	float: left;
 }
 .col-3{
     padding-left: 5px;
 	color: #717070;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	float: right;
 }
 .total
