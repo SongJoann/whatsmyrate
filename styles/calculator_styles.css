@@ -103,10 +103,11 @@ ul li:hover a {
     color: #717070;
 	flex-direction: column;
     margin-bottom: 10px;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-right: 10px;
   	border-width:2px;
 	flex: 50%;
+	float: center;
 	text-align: left;
 }
 .column-right{
