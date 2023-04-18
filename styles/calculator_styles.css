@@ -94,7 +94,8 @@ ul li:hover a {
 }
 .row
 {
-  font-size: 50 px;
+  padding-top: 100px;
+  font-size: 50px;
   font-weight:bold;
   text-align: center;
 }
@@ -102,7 +103,7 @@ ul li:hover a {
     color: #717070;
 	flex-direction: column;
     margin-bottom: 10px;
-    padding-left: 25px;
+    padding-left: 50px;
     padding-right: 10px;
   	border-width:2px;
 	flex: 50%;
