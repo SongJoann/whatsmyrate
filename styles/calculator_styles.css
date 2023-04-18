@@ -82,18 +82,6 @@ ul li:hover a {
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
-.light {
-	font-weight: bold;
-	color: #717070;
-}
-.tagline {
-	text-align: center;
-	color: #FFFFFF;
-	margin-top: 4px;
-	font-weight: lighter;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
 
 /* calculations html*/
 
@@ -195,10 +183,7 @@ nav ul li {
 	background-color: #2D9AB7;
 	background-image: none;
 }
-.tagline {
-	margin-top: 20px;
-	line-height: 22px;
-}
+
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
