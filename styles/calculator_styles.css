@@ -97,21 +97,33 @@ ul li:hover a {
 
 /* calculations html*/
 
-.flex-container .calculator {
-	width: 90%;
+.flex-container{
+	width: 100%;
 	display: flex;
 	background-color: #FFFFFF;
 	margin-bottom: 5px;
+	font-size: 30px;
 }
-.column{
+
+.column-left{
     color: #717070;
 	flex-direction: column;
     margin-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 25px;
     padding-right: 10px;
-  	float: left;
   	border-width:2px;
-	text-align: justify;
+	flex: 50%;
+	text-align: center;
+}
+.column-right{
+    color: #717070;
+	flex-direction: column;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+  	border-width:2px;
+	flex: 50%;
+	text-align: center;
 }
 
 .total
@@ -225,14 +237,7 @@ nav ul li {
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
-.text_column {
-	width: 100%;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
+
 .thumbnail {
 	width: 100%;
 }
@@ -254,6 +259,13 @@ nav ul li {
 }
 }
 
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.column left, .column right {
+	  flex: 100%;
+	}
+  }
+
 /* Small Desktops */
 @media (min-width: 768px) and (max-width: 1096px) {
 .text_column {
@@ -261,17 +273,6 @@ nav ul li {
 }
 .thumbnail {
 	width: 50%;
-}
-.text_column {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 .banner {
 	margin-top: 0px;
