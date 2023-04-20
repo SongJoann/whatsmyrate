@@ -1,10 +1,5 @@
 function calculateTotal()
 {
-  let unit_price={
-    sugar: 22,
-    butter: 12,
-    eggs: 2,  
-  };
   let item_price={}
   
   item_price.sugar = ($("#qty_sugar").val() * unit_price.sugar )

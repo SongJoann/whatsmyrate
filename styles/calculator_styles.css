@@ -114,7 +114,7 @@ ul li:hover a {
     color: #717070;
 	flex-direction: column;
     margin-bottom: 10px;
-    padding-left: 25px;
+    padding-left: 10px;
     padding-right: 10px;
   	border-width:2px;
 	flex: 50%;
