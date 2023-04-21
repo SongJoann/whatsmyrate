@@ -1,25 +1,21 @@
-function calculateTotal()
+function calculateAPRTOTAL()
 {
-  let item_price={}
+  let item_current={}
   
-  item_price.sugar = ($("#qty_sugar").val() * unit_price.sugar )
-  $("#price_sugar").val(item_price.sugar);
+  item_current.balance = ($("#qty_principal").val());
   
-  item_price.butter = ($("#qty_butter").val() * unit_price.butter )
-  $("#price_butter").val(item_price.butter);
+  item_current.apr = ($("#qty_apr").val() % 12 );
   
-  item_price.eggs = ($("#qty_eggs").val() * unit_price.eggs )
-  $("#price_eggs").val(item_price.eggs);  
+  item_current.period = ($("#qty_period").val());
   
   
-  let total = item_price.sugar + item_price.butter + item_price.eggs;
-
+  let total_interest = item_current.balance * item_current.apr;
  
-  $("#total_value").text(total);
+  $("#total_value").text(total_interest);
   
 }
 
 $(function()
  {
-    $(".qty").on("change keyup",calculateTotal)
+    $(".qty").on("change keyup",calculateAPRTOTAL)
 })
