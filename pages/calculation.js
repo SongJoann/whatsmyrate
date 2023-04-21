@@ -11,7 +11,9 @@ function calculateAPRTOTAL()
   
   let total_interest = item_current.balance * item_current.apr;
  
-  $("#total_value").text(total_interest);
+  const twoDecimalPlaces = total_interest.toFixed(2);
+  
+  $("#total_value").text(twoDecimalPlaces);
   
 }
 
