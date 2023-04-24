@@ -8,7 +8,7 @@ function calculateAPYTOTAL()
   
   item_savings.period = ($("#qty_period").val() * 12);
   
-  let annual_savings =  item_savings.apy ^ item_savings.period;
+  let annual_savings =  item_savings.apy ** item_savings.period;
   
   let total_savings = item_savings.deposit * annual_savings;
  
