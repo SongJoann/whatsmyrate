@@ -135,6 +135,7 @@ ul li:hover a {
   border-width:2px;
 }
 .footer_banner {
+	width: 90%;
 	background-color: #B3B3B3;
 	padding-top: 60px;
 	padding-bottom: 60PX;
