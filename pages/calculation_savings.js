@@ -1,4 +1,4 @@
-function calculateAPRTOTAL()
+function calculateAPYTOTAL()
 {
   let item_savings={}
   
@@ -9,9 +9,9 @@ function calculateAPRTOTAL()
   item_savings.period = ($("#qty_period").val() * 12);
   
   
-  let total_interest = item_savings.deposit * ((1 + item_savings.apy) ^ item_savings.period);
+  let total_savings = item_savings.deposit * ((1 + item_savings.apy) ^ item_savings.period);
  
-  const twoDecimalPlaces = total_interest.toFixed(2);
+  const twoDecimalPlaces = total_savings.toFixed(2);
   
   $("#total_value").text(twoDecimalPlaces);
   
@@ -19,5 +19,5 @@ function calculateAPRTOTAL()
 
 $(function()
  {
-    $(".qty").on("change keyup",calculateAPRTOTAL)
+    $(".qty").on("change keyup",calculateAPYTOTAL)
 })
