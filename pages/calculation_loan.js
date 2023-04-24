@@ -1,15 +1,15 @@
 function calculateAPRTOTAL()
 {
-  let item_current={}
+  let item_loan={}
   
-  item_current.balance = ($("#qty_principal").val());
+  item_loan.amount = ($("#qty_principal").val());
   
-  item_current.apr = ($("#qty_apr").val() / 12 / 100);
+  item_loan.apr = ($("#qty_apr").val() / 100);
   
-  item_current.period = ($("#qty_period").val());
+  item_loan.term = ($("#qty_term").val());
   
   
-  let total_interest = item_current.balance * item_current.apr;
+  let total_interest = item_loan.amount * item_loan.apr * item_loan.term;
  
   const twoDecimalPlaces = total_interest.toFixed(2);
   

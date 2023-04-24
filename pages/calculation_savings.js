@@ -1,15 +1,15 @@
 function calculateAPRTOTAL()
 {
-  let item_current={}
+  let item_savings={}
   
-  item_current.balance = ($("#qty_principal").val());
+  item_savings.deposit = ($("#qty_deposit").val());
   
-  item_current.apr = ($("#qty_apr").val() / 12 / 100);
+  item_savings.apy = ($("#qty_apy").val() / 100 / 12);
   
-  item_current.period = ($("#qty_period").val());
+  item_savings.period = ($("#qty_period").val() * 12);
   
   
-  let total_interest = item_current.balance * item_current.apr;
+  let total_interest = item_savings.deposit * ((1 + item_savings.apy) ^ item_savings.period);
  
   const twoDecimalPlaces = total_interest.toFixed(2);
   
