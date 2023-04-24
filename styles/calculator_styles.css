@@ -134,6 +134,26 @@ ul li:hover a {
   font-size:2rem;
   border-width:2px;
 }
+.footer_banner {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+}
+.hidden {
+	display: none;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
 
 /* Mobile */
 @media (max-width: 320px) {
@@ -194,6 +214,7 @@ nav ul li {
 	line-height: 22px;
 	text-align: center;
 }
+
 }
 
 /* Small Tablets */
